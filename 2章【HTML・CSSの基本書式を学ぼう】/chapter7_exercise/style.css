@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #6c6b6b;
+  }
+  header {
+      height: 400px;
+      background-image: url(img/mv.jpg);
+      background-size: cover;
+      background-position: bottom;
+  }
+  p.nav {
+      padding-left: 20px;
+      padding-top: 20px;
+      font-size: 25px;
+      font-weight: 800;
+  }
+
+  div.box{
+      width: 840px;
+      margin: auto;
+  }
+
+  div.box1 {
+      width: 840px;
+      padding: 20px;
+  }
