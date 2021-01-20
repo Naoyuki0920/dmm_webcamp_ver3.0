@@ -12,7 +12,7 @@
   }
   p.nav {
       padding-left: 20px;
-      padding-top: 20px;
+      padding-top: 30px;
       font-size: 25px;
       font-weight: 800;
   }
@@ -20,9 +20,14 @@
   div.box{
       width: 840px;
       margin: auto;
+      padding-top: 30px;
   }
 
   div.box1 {
       width: 840px;
-      padding: 20px;
+      padding-top: 30px;
+  }
+  div.box2 {
+    border-bottom: solid 1px;
+    padding-bottom: 30px;
   }
