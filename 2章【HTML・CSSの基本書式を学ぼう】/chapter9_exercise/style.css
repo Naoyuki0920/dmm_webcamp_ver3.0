@@ -1,81 +1,67 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  .header {
-      background-color: #ff9a4b;
-      height: 50px;
-  }
-  .box1 {
-      width: 960px;
-      height: 285px;
-      margin: auto;
-      margin-top: 50px;
-      margin-bottom: 50px;
-      display: flex;
-  }
-  .box2-1 {
-      width: 300px;
-      background-color: #eeeeee;
-  }
-  .box2-2 {
-    width: 300px;
-    background-color: #eeeeee;
-    margin-left: 30px;
-  }
-  .box2-3 {
-    width: 300px;
-    background-color: #eeeeee;
-    margin-left: 30px;
-  }
-  p.step{
-      height: 24px;
-      background-color: #ff9a4b;
-      width: 42px;
-      color: whitesmoke;
-  }
-  div.img1 {
-      height: 150px;
-      margin-top: -14px;
-      margin-left: 10px;
-      margin-right: 10px;
-      background-image: url(img/flow01.png);
-      background-size: cover;
-      background-position: center;
-  }
-  div.img2 {
-    height: 150px;
-    margin-top: -14px;
-    margin-left: 10px;
-    margin-right: 10px;
-    background-image: url(img/flow02.png);
-    background-size: cover;
-    background-position: center;
-}
-div.img3 {
-    height: 150px;
-    margin-top: -14px;
-    margin-left: 10px;
-    margin-right: 10px;
-    background-image: url(img/flow03.png);
-    background-size: cover;
-    background-position: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-h3.title {
-    font-size: 16px;
-    margin-top: 15px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 5px;
+header {
+  height: 50px;
+  background-color: #ff9a4b;
 }
-p.main {
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: 12px;
+
+main {
+  width: 960px;
+  margin: 50px auto;
+  display: flex;
 }
-  .footer {
-      background-color: #aaaaaa;
-      height: 50px;
-  }
+
+.step-box {
+  width: 300px;
+  margin-right: 30px;
+  padding: 10px;
+  position: relative;
+  background-color: #eee;
+}
+
+.step-box:last-child {
+  margin-right: 0;
+}
+
+.step-img1 {
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.step-img2 {
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.step-img3 {
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.step-num {
+  padding: 3px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ff9a4b;
+  color: #fff;
+}
+
+.title {
+  margin: 15px 0 5px;
+}
+
+footer {
+  height: 50px;
+  background-color: #aaa;
+}
